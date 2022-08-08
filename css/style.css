@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background-image: linear-gradient(to bottom right, rgba(79,51,176,1),rgba(210,53,165));
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
 }
 
 a{
