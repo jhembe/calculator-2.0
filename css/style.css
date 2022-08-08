@@ -86,12 +86,17 @@ button{
     border: 0px;
     border-radius: 30px;
     margin: 5px;
-    cursor: pointer;
+    cursor: touch;
     transition: all 50ms ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.calculator.dark button:active{
+    box-shadow: 0px 0px 5px rgb(105, 94, 74);
 }
 
 button:active{
-    box-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 5px rgb(180, 35, 25);
 }
 
 button:hover{
