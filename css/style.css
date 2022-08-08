@@ -36,7 +36,7 @@ a{
     position: absolute;
     top: 30px;
     right: 30px;
-    color: white;
+    color: wheat;
     cursor: pointer;
 }
 
@@ -45,13 +45,13 @@ a{
 }
 
 .theme-toggler.active::before{
-    background-color: white;
+    background-color: wheat;
 }
 
 .theme-toggler::before{
     content: '';
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
