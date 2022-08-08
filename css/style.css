@@ -90,13 +90,14 @@ button{
     transition: all 50ms ease;
 }
 
+button:active{
+    box-shadow: 0px 0px 5px;
+}
+
 button:hover{
     transform: scale(1.1);
 }
 
-button#equals{
-    /* height: 130px; */
-}
 
 .calculator{
     background-color: #fff;
@@ -121,7 +122,7 @@ button#equals{
 }
 
 .calculator button.btn-equals{
-    background-color: #adf9e7;
+    background-color: #2e2486;
     color: black;
 }
 
